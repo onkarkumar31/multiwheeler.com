@@ -23,7 +23,7 @@ public class testBase {
 	  	ChromeOptions option = new ChromeOptions();
 	  	option.addArguments("--headless");
 	  	WebDriver driver=new ChromeDriver(option);
-	  	driver=new ChromeDriver();
+	  	driver=new ChromeDriver("xyz");
 	
 		driver.manage().window().maximize();
 		Reporter.log("===Application started===",true);

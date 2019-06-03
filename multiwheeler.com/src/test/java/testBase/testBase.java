@@ -22,9 +22,9 @@ public class testBase {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\kumaro\\Documents\\ChromeDriver\\ChromeDriver.exe");
 	  	ChromeOptions option = new ChromeOptions();
 	  	option.addArguments("--headless");
-	  	//WebDriver driver=new ChromeDriver(option);
-	  	//driver=new ChromeDriver();
-	  	driver=new FirefoxDriver();
+	  	WebDriver driver=new ChromeDriver(option);
+	  	driver=new ChromeDriver();
+	
 		driver.manage().window().maximize();
 		Reporter.log("===Application started===",true);
 	}

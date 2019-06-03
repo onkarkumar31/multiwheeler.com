@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="Browser" value="FF"/>
+  <test name="Test">
+    <parameter name="Browser" value="FF"/>
+    <classes>
+      <class name="TestCases.seIFSimpleFormPageMessageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="Browser" value="FF"/>
+    <classes>
+      <class name="TestCases.seIFSimpleFormPageMessageTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="VerifyShowMessage"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- TestCases.seIFSimpleFormPageMessageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

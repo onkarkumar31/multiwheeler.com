@@ -19,6 +19,7 @@ public class getTest extends TestBase {
 	  
 	  apiurl = prop.getProperty("url");
 	  surl= prop.getProperty("surl");
+	  
 	  url=apiurl+surl;
 	  testBase = new TestBase();
 	  
